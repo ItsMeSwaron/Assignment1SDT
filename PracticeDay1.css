@@ -166,4 +166,11 @@ a
     background-color: black;
     padding: 100px;
     margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.FooterMain
+{
+    color: white;
 }

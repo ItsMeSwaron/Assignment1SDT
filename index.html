@@ -1,18 +1,260 @@
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Document</title>
-        <link rel="stylesheet" href="style.css">
-        <link rel="stylesheet" href="bootstrap-5.3.3-dist/css/bootstrap.min.css">
-    </head>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="bootstrap-5.3.3-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
 
-    <body>
-        <h1 class="text-primary"> Hello </h1>
 
-        <div>
-            <script src="bootstrap-5.3.3-dist/js/bootstrap.js"></script>
-        </div>
-    </body>
+<body>
+    
+    <header>
+
+        <nav class="navbar bg-primary">
+
+            <div class="container">
+
+                <div class="col-lg-3 col-md-6 col-sm-12 text-center">
+                    <a class="navbar-brand" href="#">
+                        <img src="slogo.png" alt="Bootstrap" width="100" height="70">
+                    </a>
+                </div>
+                  
+
+                <div class="col-lg-6 col-sm-12">
+                    <ul class="nav justify-content-center py-4">
+                        <li class="nav-item"><a class="nav-link text-white px-3 py-2 rounded" href="#">Home</a></li>
+                        <li class="nav-item"><a class="nav-link text-white" href="#">Portfolio</a></li>
+                        <li class="nav-item"><a class="nav-link text-white" href="#">Skills</a></li>
+                        <li class="nav-item"><a class="nav-link text-white" href="#">About</a></li>
+                        <button type="button" class="btn btn-light">
+                            <i class="fa-solid fa-download"> R e s u m e </i> 
+                            <!-- NOT POSSIBLE TO DOWNLOAD A FILE WITHOUT JAVASCRIPT -->
+                        </button>
+                    </ul>
+                </div>
+                
+            </div>
+        </nav>
+    
+    </header>
+
+    <main>
+
+        <section class="container d-flex">
+           
+            <div class="row">
+
+                <div class=" pt-5 col-lg-6 col-sm-12">
+                
+                    <h1 class="text-primary">
+                        HI!
+                    </h1>
+    
+                    <h1 class="text-primary">
+                        I'M EJAZ UDDIN SWARON
+                    </h1>
+    
+                    <h3>
+                        Programmer || Student 
+                    </h3>
+                    
+                    <br>
+                    
+                    <p>
+                        I am an enthusiast person for learning. I love coding and problem solving. I want to make my career on artificial intelligence in future In Sha Allah.
+                    </p>
+                    
+                    <br>
+    
+                    <div class="container m-auto">
+                        <a href=""><i class="fa-2x fa-brands fa-facebook me-5"></i></a>
+                        <a href=""><i class="fa-2x fa-brands fa-linkedin me-5"></i></a>
+                        <a href=""><i class="fa-2x fa-brands fa-youtube me-5"></i></a>
+                        <button type="button" class="btn btn-light mb-3 bg-dark text-white">
+                            <i class="fa-solid fa-download"> R e s u m e </i> 
+                        </button>
+                    </div>
+    
+                </div>
+    
+                <div class="pt-5 col-lg-6 col-sm-12 d-flex justify-content-center">
+                    <img class="img-fluid w-50" src="myphoto.jpeg" alt="">
+                </div>
+           
+            </div>
+       
+        </section>
+
+        <section class="container">
+
+            <div class="row justify-content-center">
+
+                <div>
+                    <h1 class="text-center mt-5">
+                        Portfolio
+                    </h1>
+                </div>
+
+                <div class="card mb-3" style="max-width: 740px;">
+                    <div class="row g-0">
+                      <div class="col-md-4">
+                        <img src="ml.jpg" class="img-fluid rounded-start w-100" alt="...">
+                      </div>
+                      <div class="col-md-8">
+                        <div class="card-body">
+                          <h5 class="card-title">Machine Learning</h5>
+                          <p class="card-text">
+                            Machine learning = computers learn from data (like you learn from books) to improve at tasks (like recognizing cats in pictures).</p>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+
+                <div class="card mb-3" style="max-width: 740px;">
+                    <div class="row g-0">
+                      <div class="col-md-4">
+                        <img src="ai.webp" class="img-fluid rounded-start w-100" alt="...">
+                      </div>
+                      <div class="col-md-8">
+                        <div class="card-body">
+                          <h5 class="card-title">Artificial Intelligence</h5>
+                          <p class="card-text">
+                            AI = Smart machines.  They try to mimic human intelligence by learning and solving problems, but without actually being human.</p>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+
+                <div class="container">
+                
+                    <h1> 
+                        Expertise:
+                    </h1>
+
+                    <h5 class="mt-3">
+                        <span class="px-1 mx-2 text-bg-secondary d-inline">HTML</span>
+                        <span class="px-1 mx-2 text-bg-secondary d-inline">CSS</span>
+                        <span class="px-1 mx-2 text-bg-secondary d-inline">JAVA</span>
+                        <span class="px-1 mx-2 text-bg-secondary d-inline">PYTHON</span>
+                        <span class="px-1 mx-2 text-bg-secondary d-inline">C++</span>
+                        <span class="px-1 mx-2 text-bg-secondary d-inline">C</span>
+                        <span class="px-1 mx-2 text-bg-secondary d-inline">MYSQL</span>
+                    </h5>
+                    
+                    <br>
+                    <br>
+
+                    <h1> 
+                        Tools:
+                    </h1>
+
+                    <h5 class="mt-3">
+                        <span class="px-1 mx-2 text-bg-secondary d-inline">VS Code</span>
+                        <span class="px-1 mx-2 text-bg-secondary d-inline">Intellij</span>
+                        <span class="px-1 mx-2 text-bg-secondary d-inline">PyCharm</span>
+                    </h5>
+                    
+                </div>  
+                
+                <div class="container text-center">
+                    
+                    <h1 class="text-primary mt-5">
+                        My Education
+                    </h1>
+                    
+                    <h5>
+                        B.Sc in Computer Science & Engineering,
+                    </h5>
+
+                    <h5>
+                        United International University
+                    </h5>
+
+                    <p>
+                        2022-present
+                    </p>
+                
+                </div>
+
+                <div class="container text-center pb-5">
+
+                    <h1 class="text-primary mt-5">
+                        Contact Me
+                    </h1>
+
+                    <form class="border border-3 p-3 shadow">
+
+                        <div class="row">
+                           
+                            <div class="mb-3 col-lg-6 justify-content-center">
+
+                                <input type="text" class="form-control form-control-sm" id="exampleInputEmail1" placeholder="Please type your name">
+                              
+                            </div>
+      
+                            <div class="mb-3 col-lg-6">
+    
+                                <input type="email" class="form-control form-control-sm" id="exampleInputEmail1" placeholder="Please type your Email address">
+                            
+                            </div>
+      
+                            <div class="mb-3 col-lg-12">
+    
+                                <input type="text" class="form-control form-control-sm" id="exampleInputEmail1" placeholder="Type here message">
+                        
+                            </div>
+                        
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary btn-sm">Send</button>
+                    
+                    </form>
+                
+                </div>
+
+            </div>
+
+        </section>
+    
+    </main>
+
+    <footer>
+
+        <section class="bg-dark p-5">
+            
+            <div>
+                
+                <p class="text-white text-center">
+                    copyright 2024 | Ejaz Uddin Swaron
+                </p>
+
+                <p class="text-white text-center">
+                    Dhaka, Bangladesh
+                </p>
+
+                <div class="text-center">
+                    <a href=""><i class="fa-2x fa-brands fa-facebook me-5"></i></a>
+                    <a href=""><i class="fa-2x fa-brands fa-linkedin me-5"></i></a>
+                    <a href=""><i class="fa-2x fa-brands fa-youtube me-5"></i></a>
+                </div>
+                
+            </div>
+
+        
+        </section>
+
+    </footer>
+
+    <!-- JavaScript cdn link  -->
+
+    <div>
+        <script src="bootstrap-5.3.3-dist/js/bootstrap.js"></script>
+    </div>    
+</body>
+
 
 </html>
